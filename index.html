@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="styles.css"/>
         <meta charset="UTF-8">
         <title>Odin Recipes</title>
     </head>
     <body>
-        <h1>Odin Recipes</h1>
+        <h1 id="title">Odin Recipes</h1>
         <ul>
-        <li><h2>Spain</h2></li>
-        <p><a href="recipes/tortilla-de-patata.html">Tortilla de Patata</a></p>
-        <li><h2>Hungary</h2></li>
-        <p><a href="recipes/goulash.html">Goulash</a></p>
-        <li><h2>Scotland</h2></li>
-        <p><a href="recipes/haggis.html">Haggis</a></p>
+        <h2 class="country spain">Spain</h2>
+        <button>
+           <a class="link" href="recipes/tortilla-de-patata.html">
+            <img class="image" src="Flag-Spain.png" alt="A Spanish flag.">
+           </a>
+        </button>
+        <h2 class="country hungary">Hungary</h2>
+        <button>
+            <a class="link" href="recipes/goulash.html">
+            <img class="image" src="Flag-Hungary.png" alt="A Hungarian flag.">
+        </a></button>
+        <h2 class="country scotland">Scotland</h2>
+        <button> <a class="link" href="recipes/haggis.html">
+            <img class="image" src="Flag-Scotland.png" alt="A Scottish flag.">
+        </a></button>
         </ul>
     </body>
 </html>
