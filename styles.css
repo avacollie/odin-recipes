@@ -2,34 +2,51 @@
     text-align: center;
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    margin: 0 auto;
 }
 #title {
+    display: block;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;
-    background-color: blanchedalmond;
+    background-color: rgb(184, 174, 132);
+    border: 5px dotted rgb(138, 130, 99);
+    color: white;
     font-weight: bolder;
+    width: max-content;
 }
 .country
 {
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-weight: bold;
 color: white;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
 .spain {
     background-color: rgb(116, 0, 0);
+    border: 5px solid red;
+    width: 350px;
+    margin-bottom: 10px;
 }
 .hungary {
     background-color: darkgreen;
+    border: 5px solid rgb(91, 185, 91);
+    width: 350px;
+    margin-bottom: 10px;
 }
 
 .scotland {
     background-color: darkblue;
+    border: 5px solid rgb(40, 5, 165);
+    width: 350px;
+    margin-bottom: 10px;
 }
 .link {
     font-size: medium;
 }
 .image {
-    height: auto;
     width: 300px;
+    border: 5px solid black;
 }
